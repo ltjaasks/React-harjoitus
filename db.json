@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "lauri",
+      "password": "testi",
+      "style": null,
+      "bio": "A test user jou"
+    },
+    {
+      "id": 1,
+      "username": "tester",
+      "style": "{\"style\": {\"color\":\"green\"}}",
+      "bio": "I am a tester"
+    },
+    {
+      "id": 2,
+      "username": "My test profile for user supplied props issues",
+      "style": "{\"dangerouslySetInnerHTML\": {\"__html\": \"<img src=x onerror=alert()>\"}}",
+      "bio": null
+    },
+    {
+      "id": 3,
+      "username": "blogger123",
+      "style": null,
+      "bio": "I write blogs and stuff"
+    },
+    {
+      "id": 4,
+      "username": "xX_blogmaster_Xx",
+      "bio": "I write sick blogs mate"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "A blog",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia, orci vitae suscipit sollicitudin, sapien est lacinia augue, vel convallis mi nisl sit amet ipsum. Vestibulum mattis sodales erat sit amet placerat. Aliquam sit amet nisl vel justo ullamcorper consectetur aliquet quis neque.",
+      "comments": [
+        {
+          "id": 1,
+          "user": "tester",
+          "comment": "Good stuff."
+        },
+        {
+          "id": 2,
+          "user": "someguy",
+          "comment": "^ I agree"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Another blog",
+      "content": "Cras vehicula metus luctus dolor imperdiet, non consequat ligula scelerisque. Integer finibus commodo quam, eget volutpat lectus laoreet id. Duis in eros at lectus consequat egestas ac luctus orci. In sed diam interdum, fermentum massa nec, congue leo.",
+      "comments": [
+        {
+          "id": 1,
+          "user": "blogger123",
+          "comment": "Wise words."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nonsense",
+      "content": "Vivamus eu ligula ut diam tempor mollis. Donec faucibus eleifend pretium. Etiam eu nunc faucibus, imperdiet dui ac, imperdiet elit. Phasellus feugiat porta erat id dignissim. Phasellus dapibus tortor non dolor venenatis convallis.",
+      "comments": [
+        {
+          "id": 1,
+          "user": "xX_blogmaster_Xx",
+          "comment": "What a stupid blog"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "asd",
+      "content": "asd",
+      "comments": []
+    }
+  ]
+}
